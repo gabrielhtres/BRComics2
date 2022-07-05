@@ -1,4 +1,8 @@
-.caixa-home {
+.row {
     height: 90%;
-    border: 1px solid red;
+}
+
+app-dashboard, app-menu {
+    padding: 0;
+    margin: 0;
 }
