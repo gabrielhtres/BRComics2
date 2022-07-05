@@ -1,10 +1,17 @@
-.row {
-    width: inherit;
-    border: 1px solid blue;
-}
-
 .caixa {
     height: inherit;
     width: 100%;
-    // border: 1px solid purple;
+}
+
+.card-editora {
+    border: 1px solid #FAFAFA;
+    width: 20%;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 2%;
+}
+
+.card-editora img {
+    width: 90%;
 }

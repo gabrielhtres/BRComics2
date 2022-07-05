@@ -9,6 +9,7 @@ import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { DashboardComponent } from './home/dashboard/dashboard.component';
 import { MenuComponent } from './home/menu/menu.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MenuComponent } from './home/menu/menu.component';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
